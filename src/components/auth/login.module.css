@@ -1,0 +1,33 @@
+.container {
+    height: 100vh;
+    background:url("../../images/login-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formHeader {
+    font-family: 'Chewy', cursive;
+    font-size:52px;
+
+    /* Background stili*/
+    background: #7f00ff;
+    background:-webkit-linear-gradient(
+        to right,
+        #e100ff,
+        #7f00ff
+    );/* Chrome 10-25, Safari 5.1-6*/
+    background:linear-gradient(
+        to right,
+        #e100ff,
+        #7f00ff
+    );
+/* Arka plane verilen gradientligi sadece yaziya uygulama islemi bu sekilde yapiliyor  */
+    -webkit-background-clip: text;
+    /* text i belli bir renk ile doldurmaya yariyor */
+    -webkit-text-fill-color:transparent;
+
+}
+
+.formHeader span {
+     /* text i beyaz ile doldur diyoruz */
+    -webkit-text-fill-color: #ffff;
+}
